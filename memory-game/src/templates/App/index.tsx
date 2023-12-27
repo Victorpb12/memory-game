@@ -1,11 +1,13 @@
+import { Grid } from '../../components/Grid';
+import { cards } from '../../data/cards';
 import './styles.css'
 
-function App() {
+export function App() {
   return (
-    <p>
-      teste
-    </p>
+    <div className="app">
+      <Grid cards={cards}/>
+    </div>
   )
 }
 
-export default App
+ 
